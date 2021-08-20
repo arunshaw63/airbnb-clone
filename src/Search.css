@@ -1,0 +1,53 @@
+.search {
+  position: absolute;
+  top: 35px;
+  left: 25%;
+  max-width: 100vw;
+}
+
+.search h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 559px;
+  padding: 10px;
+  position: absolute;
+  top: 328px;
+  left: 0;
+}
+
+.search > input {
+  width: 559px;
+  height: 30px;
+  padding: 10px;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  border: none;
+  z-index: 60;
+}
+
+.search > input:focus {
+  outline-width: 0;
+}
+
+.search > button {
+  width: 579px;
+  text-transform: inherit;
+  background-color: #ff7779;
+  color: white;
+  position: absolute;
+  top: 449px;
+  left: 0;
+  z-index: 50;
+}
+
+.search > button :hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.rdrDateRangePickerWrapper {
+  z-index: 50;
+}
